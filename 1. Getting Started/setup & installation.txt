@@ -1,0 +1,7 @@
+1.  npm create vite@latest
+
+2. Done. Now run:
+
+  cd "first react project"
+  npm install
+  npm run dev
