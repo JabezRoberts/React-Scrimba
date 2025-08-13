@@ -18,8 +18,15 @@ const root = createRoot(document.getElementById("root"));
 
 function Header() {
     return (
-        <header>
-            <img src="react-logo.png" alt="React logo image" width="30px" />
+        <header className="nav-header">
+            <img src="react-logo.png" alt="React logo image" className="nav-image"/>
+            <nav>
+                <ul>
+                    <li className="nav-items">Pricing</li>
+                    <li className="nav-items">About</li>
+                    <li className="nav-items">Contact</li>
+                </ul>
+            </nav>
         </header>
     )
 

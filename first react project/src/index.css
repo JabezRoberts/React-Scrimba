@@ -70,3 +70,26 @@ button:focus-visible {
 img {
     width: 40px;
 }
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding: 2px;
+    margin: 0;
+    justify-content: end;
+}
+
+.nav-image {
+    display: flex;
+    justify-content: start;
+    width: 55px;
+}
+
+.nav-items {
+  padding: 0 2px;
+}
