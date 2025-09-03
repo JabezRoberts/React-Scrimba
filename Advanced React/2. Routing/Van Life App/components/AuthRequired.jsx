@@ -18,3 +18,6 @@ export default function AuthRequired() {
     }
     return <Outlet />
 }
+
+
+
